@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Grand Chase</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./src/imagens/grandchaselogo.webp" alt="Logo x-men">
+    </header>
+
+    <main class="character-selection">
+      <section class="characters">
+        <h1 class="title">Select a character</h1>
+        <ul class="character-list">
+          <li class="character selected" id="elesis" data-name="elesis" data-description="A human warrior from Kanavan and the leader of the Ruby Knights, Elesis joined the Grand Chase in hopes of locating her father Elscud, a Kanavan Tracker who had gone missing after being dispatched in the search for Kaze'aze.">
+            <img
+              src="./src/imagens/Elesisj.webp"
+              alt="character Elesis"
+            />
+          </li>
+          <li class="character" id="Arme" data-name="Arme" data-description="A cheerful Magician of the Violet Mage Guild in Serdin, Arme joined the Grand Chase for one simple reason alone: to encounter the evil queen and her magic in order to study it">
+            <img
+              src="./src/imagens/Armej.webp" 
+              alt="character Arme"
+            />
+          </li>
+
+          <li class="character" id="lire" data-name="Lire" data-description="An elf of Eryuell Island and a member of the Elven Corps, Lire joined the Grand Chase on behalf of the elves of Eryuell to combat Kaze'aze's evil.">
+            <img
+              src="./src/imagens//Lirej.webp"
+              alt="character Lire"
+            />
+          </li>
+
+          <li class="character" id="Sieghart" data-name="Sieghart" data-description="A well-known hero of Bermesiah from 600 years ago, Sieghart was nearly killed before being reborn as a Highlander. He was looking to join the Grand Chase and encountered them many times through their travels, only realizing who they are at Xenia Border but only joining them at the Wyrm's Maw.">
+            <img
+              src="./src/imagens//Sieghartj.webp"
+              alt="character Sieghart"
+            />
+          </li>
+
+          <li class="character" id="Lass" data-name="Lass" data-description="A member of the Silver Cross Thieves and a half-demon, Lass was a child possessed by Kaze'aze. He was first introduced at Partusay's Sea as an illusion and later has his first true encounter with the Grand Chase at Kamiki's Castle. He was finally freed from Kaze'aze's possession at Kaze'aze's Castle upon her defeat. Overwhelmed with guilt at the atrocities he had committed whilst under Kaze'aze's control, he joined the Grand Chase to atone.">
+            <img
+              src="./src/imagens/Lassj.webp"
+              alt="character Lass"
+            />
+          </li>
+
+          <li class="character" id="Uno" data-name="Uno" data-description="The existence born from the pool of blood of Highlanders killed by Ashtaroth several hundred years ago, Uno ascended from the ruins when the shield blocking it was broken after Ashtaroth was defeated by Grand Chase and was seen looking at them from a nearby forest by the events of Episode &.">
+            <img
+              src="./src/imagens/Unoj.webp"
+              alt="character Uno"
+            />
+          </li>
+
+          <li class="character" id="Ryan" data-name="Ryan" data-description="An elven Druid hailing from the Elven Forest, Ryan was first encountered by the Grand Chase in the form of a Wolf as he fought to defend his homeland. After defeating the Troll who was responsible for the destruction of the forest, Ryan joined the Grand Chase.">
+            <img
+            src="./src/imagens/Ryanj.webp"
+              alt="character Ryan"
+            />
+          </li>
+
+          <li class="character" id="Ronan" data-name="Ronan" data-description="A Spell Knight of Kanavan and a member of the Kanavan Royal Guard, Ronan was first introduced at the Gorge of Oath and requested their aid at Gaikoz's Castle, leaving after empowering the group with the spell, Holy Bless. Upon defeating Gaikoz at his castle, Ronan thanked the group and joined them on their journey to overthrow Kaze'aze.">
+            <img
+            src="./src/imagens/Ronanj.webp"
+              alt="character Ronan"
+            />
+          </li>
+          <li class="character" id="Mari" data-name="Mari" data-description="An amnesiac girl who is encountered at the Temple of Destruction, Mari is in actuality a descendant of an ancient kingdom known as Kounat. She first woke up from her hibernation in an escape pod at the Kastulle Ruins Upper Floor and lacking her memories, wandered in a search. Upon learning about Sieghart's immortality, her interest was perked and she joined the Grand Chase to further her research.">
+            <img
+            src="./src/imagens/Marij.webp"
+              alt="character Mari"
+            />
+          </li>
+          <li class="character" id="Jin" data-name="Jin" data-description="A survivor of the nearly annihilated guild, Silver Knights, Jin was first encountered at the Ruins of the Silver Knights, where he killed an Undead Fighter who was attacking Elesis. After defeating the Black Fairy Queen, Jin joined the Grand Chase in hopes of avenging his fallen brethren">
+            <img
+            src="./src/imagens/Jinj.webp"
+              alt="character Jin"
+            />
+          </li>
+          <li class="character" id="Amy" data-name="Amy" data-description="An Oracle and celebrated Dancer of Xenia, Amy first appeared in Lake Aurora where she spied on the Grand Chase before leaving. She was later encountered at the Temple of Cuatal and after saving Samsara with the help of the Grand Chase, joined them to stop the Ascendant God's mission of chaos">
+            <img
+            src="./src/imagens/Amyj.webp"
+              alt="character Amy"
+            />
+          </li>
+          <li class="character" id="Dio" data-name="Dio" data-description="An Asmodian from Elyos and the chief of the Moderate family, Burning Canyon, Dio was an embassy sent to aid Kounat against the invasion of the Hardliners. Trapped in Aernas after the war, Dio continued to seal the Dimensional Portals left in Aernas. He was introduced and invited to join the Grand Chase in the Relics of Kounat, to which he agreed for the sake of pursuing his interests.">
+            <img
+            src="./src/imagens/Dioj.webp"
+              alt="character Dio"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="selected-character">
+        <img
+          class="big-character"
+          src="./src/imagens/card-elesis.webp"
+          alt="selected character"
+        />
+
+        <div class="character-information">
+          <h2 class="character-name" id="character-name">Elesis</h2>
+          <p class="character-description" id="character-description">
+            Kanavan's Ruby Knight
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
